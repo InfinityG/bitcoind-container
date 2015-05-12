@@ -19,6 +19,11 @@ sudo docker run -p 18332:18332 -it infinityg/bitcoind:v1
 bitcoind -daemon
 ```
 
+### To exit the container without stopping it:
+```
+ctrl-p ctrl-q
+```
+
 ### bitcoin-cli commands:
 
 https://bitcoin.org/en/developer-reference#rpcs
